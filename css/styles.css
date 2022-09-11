@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: black;
+  --body-background-color: white;
+  --title-footer-background: #2f303a;
+  --change-color: #2196f3;
+  --link-title-color: #212121;
+  --link-ad-description-color: #757575;
+  --team-background: #f5f4fa;
+}
+  body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  background-color: var(--body-background-color);
+  color:var(--text-color)
+}
+#container {
+  width: 1200px;
+}
+.section {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+a.title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: var(--change-color);
+  text-decoration: none;
+}
+.title2 {
+  color: var(--link-title-color);
+  font-weight: 500px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.info {
+  font-weight: 500px;
+  line-height: 16px;
+  color: var(--link-ad-description-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mail {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+  font-weight: 500;
+}
+.title-addres {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+  font-weight: 500;
+}
+.title {
+  background: var(--title-footer-background);
+}
+.h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+}
+#button-title {
+  background: var(--change-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--body-background-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+.focusing {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--link-title-colorcolor);
+}
+h2,h3 {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--link-title-colorcolor);
+}
+p {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--link-ad-description-color);
+}
+.utility {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-title-colorcolor);
+}
+.picture {
+  width: 373px;
+  height: 323;
+  list-style: none;
+}
+#our > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--link-title-color);
+}
+
+#our {
+  background: var(--team-background);
+}
+
+.country {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--body-background-color);
+}
+ 
+footer {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--title-footer-background);
+  text-decoration: none;
+}
+
+.buttons {
+  border-radius: 4px;
+  background: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.li-class {
+  list-style: none;
+  font-weight: 500;
+}
+
+.buttons:hover {
+  color: var(--body-background-color);
+}
+
+a:hover {
+  color: var(--change-color);
+}
+
+button[type="button"]:hover {
+  background-color: var(--change-color);
+}
+
+.address {
+  font-style: normal;
+  background: var(--title-footer-background);
+}
+
+footer {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+}
+
+.socialweb{
+  list-style: none;
+}
+
+a.design {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: var(--change-color);
+  text-decoration: none;
+}
+
+
+
